@@ -26,7 +26,7 @@ ArrayFunctions.prototype.doubleArray = function(array){
 
 ArrayFunctions.prototype.superPower = function(array){
   return array.reduce(function(sum, number, index){
-    return sum + (number * (Math.pow(index, 10)));
+    return sum + (number * (Math.pow(10, index)));
   });
 }
 

@@ -22,8 +22,8 @@ describe('ArrayFunctions', function() {
 
   describe('superPower()', function(){
     it('should return each element to the power of it\'s index', function(){
-      var numbers = [10, 20, 35, 12];
-      expect(arrayFunctions.doubleArray(numbers)).to.deep.equal([20, 40, 70, 24])
+      var numbers = [8,7,3,2,1,5]
+      expect(arrayFunctions.superPower(numbers)).to.equal(512378)
     });
   });
 });

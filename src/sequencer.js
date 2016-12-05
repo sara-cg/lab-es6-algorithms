@@ -14,6 +14,8 @@ LetterSequence.createSequence = function(sequence){
       repeatCount++
     }
 
+    // If the sequence is broken, and the repeat count is greater than 1
+    // add the letter and the repeat count to the return string
     if (currentChar !== nextChar && repeatCount >= 1){
       var repeats = repeatCount > 1 ? String(repeatCount) : ""
       containerString += (repeats + currentChar)
@@ -63,12 +65,4 @@ LetterSequence._repeat = function(count, character){
   return characters;
 }
 
-// s1 = new LetterSequence("aabbccabbca");
-//
-// s2 = new LetterSequence("abcd");
-// s3 = new LetterSequence("aabbcc")
-// console.log(s1.createSequence() === "2a2b2ca2bca")
-// console.log(s2.createSequence() === "abcd")
-// console.log(s3.createSequence() === "2a2b2c")
-
-console.log(LetterSequence.decodeSequence("2a2b2ca2bca"))
+module.exports = LetterSequence;

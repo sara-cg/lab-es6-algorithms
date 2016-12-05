@@ -1,4 +1,4 @@
-var { assert, expect } = require('chai');
+var { expect } = require('chai');
 var ArrayFunctions = require('../src/array-functions.js');
 
 describe('ArrayFunctions', function() {

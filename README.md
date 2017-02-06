@@ -32,7 +32,7 @@ $ npm install -g mocha
 Then, clone our starter code:
 
 ```
-$ git clone https://github.com/ironhack/pp-es6-exercises
+$ git clone https://github.com/ironhack-labs/pp-es6-exercises
 $ cd pp-es6-exercises
 ```
 

@@ -33,7 +33,7 @@ Then, clone our starter code:
 
 ```
 $ git clone https://github.com/ironhack-labs/lab-es6-algorithms
-$ cd pp-es6-exercises
+$ cd lab-es6-algorithms
 ```
 
 Once Mocha is installed, we can run our tests by simply entering the mocha command:

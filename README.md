@@ -19,9 +19,9 @@ So, what we've done is set up a `test suite` in [mocha](https://mochajs.org/) to
 
 ![](https://i.imgur.com/jVN0xBn.png =300x)
 
-:::info
-Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.
-:::
+<!-- :::info -->
+**Mocha** is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.
+<!-- ::: -->
 
 To get started with Mocha, we must first install it:
 
@@ -96,12 +96,12 @@ The array will be iterated over until all items are in order.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif)
 
-:::warning
-ES6 Concepts **You Must Use**
+<!-- :::warning -->
+### ES6 Concepts **You Must Use**
 
 - `let`
 - `const`
-:::
+<!-- ::: -->
 
 ## 2. Merge Sort: `merge-sort.js`
 
@@ -113,12 +113,12 @@ The left and right elements of these pairs of two are compared, and then *merged
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
-:::warning
-ES6 Concepts **You Must Use**
+<!-- :::warning -->
+### ES6 Concepts **You Must Use**
 
 - `const` / `let`
 - `spread operator`
-:::
+<!-- ::: -->
 
 ## 3. Array Functions: `array-functions.js`
 
@@ -159,14 +159,14 @@ ArrayFunctions.superPower([1,2,3,4,5])
 // => 54321
 ```
 
-:::warning
-ES6 Concepts **You Must Use**
+<!-- :::warning -->
+### ES6 Concepts **You Must Use**
 
 - [`class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [`static methods`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 - [`arrow functions`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - `const / let`
-:::
+<!-- ::: -->
 
 
 ## 4. Letter Sequencer: `sequencer.js`
@@ -205,15 +205,15 @@ LetterSequence.decodeSequence("2a3b2c");
 ```
 
 
-:::warning
-ES6 Concepts **You Must Use**
+<!-- :::warning -->
+### ES6 Concepts **You Must Use**
 
 - [`class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [`static methods`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 - `spread operator`
 - `const / let`
 - `array destructuring`
-:::
+<!-- ::: -->
 
 
 Happy Coding!

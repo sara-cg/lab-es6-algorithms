@@ -32,11 +32,17 @@ $ npm install -g mocha
 Then, clone our starter code:
 
 ```
-$ git clone https://github.com/ironhack/pp-es6-exercises
-$ cd pp-es6-exercises
+$ git clone https://github.com/ironhack-labs/lab-es6-algorithms
+$ cd lab-es6-algorithms/starter-code/
 ```
 
-Once Mocha is installed, we can run our tests by simply entering the mocha command:
+Then, install the local packages our project requires:
+
+```
+$ npm install
+```
+
+Once the setup is done, we can run our tests by simply entering the mocha command:
 
 ```
 $ mocha

@@ -17,7 +17,7 @@ Refactoring is hard. It's difficult to fix or update code without accidentally m
 
 So, what we've done is set up a `test suite` in [mocha](https://mochajs.org/) to make sure you don't break anything.
 
-![](https://i.imgur.com/jVN0xBn.png =300x)
+<img src="https://i.imgur.com/jVN0xBn.png" width="300px">
 
 <!-- :::info -->
 **Mocha** is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.
@@ -26,7 +26,7 @@ So, what we've done is set up a `test suite` in [mocha](https://mochajs.org/) to
 To get started with Mocha, we must first install it:
 
 ```
-$ npm install -g mocha
+$ npm install mocha  --global
 ```
 
 Then, clone our starter code:
@@ -175,7 +175,10 @@ ArrayFunctions.superPower([1,2,3,4,5])
 <!-- ::: -->
 
 
-## 4. Letter Sequencer: `sequencer.js`
+## (INDIVIDUAL BONUS) 4. Letter Sequencer: `sequencer.js`
+
+**Review the _ES6 Advanced Features_ self-study before you begin.**
+(You will need _spread operator_ and _array destructuring_ for this step.)
 
 `LetterSequencer` is an object with two methods.
 

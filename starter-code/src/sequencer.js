@@ -1,6 +1,6 @@
 var LetterSequence = function(){}
 
-LetterSequence.createSequence = function(sequence){
+LetterSequence.prototype.createSequence = function(sequence){
   var characters      = sequence.split("");
   var containerString = "";
   var repeatCount     = 1;
@@ -26,7 +26,7 @@ LetterSequence.createSequence = function(sequence){
   return containerString;
 }
 
-LetterSequence.decodeSequence = function(sequence){
+LetterSequence.prototype.decodeSequence = function(sequence){
   var containerString = "";
   var characters      = sequence.split("");
 
@@ -51,7 +51,7 @@ LetterSequence.decodeSequence = function(sequence){
 
 // Maybe there's a function to do this in ES6...?
 
-LetterSequence._repeat = function(count, character){
+LetterSequence.prototype._repeat = function(count, character){
   var characters = "";
 
   if (count <= 1){

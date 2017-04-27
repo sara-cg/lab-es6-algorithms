@@ -137,7 +137,8 @@ This function takes an input of an array, and turns it into a string seperated w
 **Example**
 
 ```javascript
-ArrayFunctions.printSpecial([12, 33, 144, 122])
+const arrayFunctionsObject = new ArrayFunctions();
+arrayFunctionsObject.printSpecial([12, 33, 144, 122])
 // => 12 --- 33 --- 144 --- 122
 ```
 
@@ -148,7 +149,7 @@ This function takes an input of an array of numbers, and returns an array with e
 **Example**
 
 ```javascript
-ArrayFunctions.doubleMyArray([10, 20, 35, 12])
+arrayFunctionsObject.doubleMyArray([10, 20, 35, 12])
 // => [20, 40, 70, 24]
 ```
 
@@ -159,7 +160,7 @@ ArrayFunctions.doubleMyArray([10, 20, 35, 12])
 **Example**
 
 ```javascript
-ArrayFunctions.superPower([1,2,3,4,5])
+arrayFunctionsObject.superPower([1,2,3,4,5])
 // (1 x 10^0) + (2 x 10^1) + (3 x 10^2) + (4 x 10^3) + (5 x 10^4)
 // (1)        + (20)       + (300)      + (4000)     + (50000)
 // => 54321
@@ -187,13 +188,14 @@ The first function `createSequence` takes a series of letters, and returns a str
 **Example**
 
 ```javascript
-LetterSequence.createSequence("aabbccabbca");
+const sequence = new LetterSequence();
+sequence.createSequence("aabbccabbca");
 // => 2a2b2ca2bca
 
-LetterSequence.createSequence("aabbcc");
+sequence.createSequence("aabbcc");
 // => "2a2b2c"
 
-LetterSequence.createSequence("aabbbcc");
+sequence.createSequence("aabbbcc");
 // => "2a3b2c"
 ```
 
@@ -203,13 +205,13 @@ LetterSequence.createSequence("aabbbcc");
 **Example**
 
 ```javascript
-LetterSequence.decodeSequence("2a2b2ca2bca");
+sequence.decodeSequence("2a2b2ca2bca");
 // => aabbccabbca
 
-LetterSequence.decodeSequence("2a2b2c");
+sequence.decodeSequence("2a2b2c");
 // => aabbcc
 
-LetterSequence.decodeSequence("2a3b2c");
+sequence.decodeSequence("2a3b2c");
 // => aabbbcc
 ```
 
